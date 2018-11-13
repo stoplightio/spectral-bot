@@ -12,7 +12,7 @@ To get your own Glitch-hosted Probot up-and-running, follow these steps. If you 
     - For the Webhook Secret, just use "development".
     until Step 4.
     - Save your changes.
-    - On the **Permissions & webhooks** tab, add *read and write permissions* for **Pull requests** and *read permissions* for **Repository contents**.
+    - On the **Permissions & webhooks** tab, add *read and write permissions* for **Pull requests**, *read permissions* for **Repository contents**, and *read permissions* for **Repository metadata**.
     - On the **Permissions & webhooks** tab, subscribe to **Pull request** events.
     - Save your changes.
     - On the configuration page that comes up after saving, download your private key. It will be saved into a file named `my-app-name.2018-06-20.private-key.pem`, with your app name, and today's date.
